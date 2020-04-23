@@ -1,0 +1,22 @@
+#include "defines.hpp"
+#include "control.hpp"
+
+class Params
+{
+	class AISkill
+	{
+		title = "AI Skill"; // Param name visible in the list
+		values[] = {0,1,2}; // Values; must be integers; has to have the same number of elements as 'texts'
+		texts[] = {"Recruit","Regular","Veteran"}; // Description of each selectable item
+		default = 1; // Default value; must be listed in 'values' array, otherwise 0 is used
+		// Default values that are not whole numbers do not work. Param will default to 0 (or 1 if defined)
+	};
+
+	class TownDifficulty
+	{
+		title = "TownDifficulty";
+		values[] = {5, 10, 15, 20, 50};
+		texts[] = {"Easy", "Medium", "Hard", "Veteran", "Silly"};
+		default = 3;
+	};
+};

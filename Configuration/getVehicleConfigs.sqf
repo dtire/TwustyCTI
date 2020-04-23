@@ -1,0 +1,1 @@
+params ["_side", "_type"] // light, heavy, aircraft
