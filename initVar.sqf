@@ -18,6 +18,14 @@ buildingsEast = [];
 bluforGear = [];
 opforGear = [];
 
+bluforLightVehicles = [];
+bluforHeavyVehicles = [];
+bluforAircraft = [];
+
+opforLightVehicles = [];
+opforHeavyVehicles = [];
+opforAircraft = [];
+
 Blufor_CV = objNull;
 Opfor_CV = objNull;
 
