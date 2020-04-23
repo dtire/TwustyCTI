@@ -1,4 +1,4 @@
-params ["_building", "_cost"];
+params ["_building", "_cost", "_type"];
 
 sleep 3;
 _cash = 0;
@@ -45,7 +45,8 @@ else
 	else
 	{
 		server setVariable["OpforCash", _cost, true];
-	}
+	};
 };
+
 
 

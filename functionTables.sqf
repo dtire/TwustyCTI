@@ -5,5 +5,7 @@ EconomyTick = compile preprocessFile "AI-Helpers\economyTick.sqf";
 GetBuildingType = compile preprocessFile "Building\getBuildingName.sqf";
 PrePlace = compile preprocessFile "Building\prePlace.sqf";
 CanBuild = compile preprocessFile "Building\canBuild.sqf";
-
+SetUpCommandVehicle = compile preprocessFile "setUpCommandVehicle.sqf";
+GameOverHandler = compile preprocessFile "Command\gameOverHandler.sqf";
+AddBehaviorToPlacable = compile preprocessFile "Building\addCommandsToPlacable.sqf";
 diag_log "Function tabled completed";

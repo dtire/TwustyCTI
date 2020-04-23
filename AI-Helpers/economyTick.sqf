@@ -1,3 +1,4 @@
+if(!isMultiplayer) exitWith{}; // spin up the single player equivalent
 if(!isServer || hasInterface) exitWith{};
 
 while{true} do {
@@ -16,4 +17,4 @@ while{true} do {
 	server setVariable["OpforCash", _bluforCash, true];
 	currencyChanging = false;
 	publicVariable "currencyChanging";
-}
+};

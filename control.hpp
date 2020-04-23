@@ -74,7 +74,7 @@ class commanderDialog
 			y = 0.247 * safezoneH + safezoneY;
 			w = 0.159844 * safezoneW;
 			h = 0.099 * safezoneH;
-			action = "[([""Barracks""] call GetBuildingType), 1000] spawn PrePlace; closeDialog 0;";
+			action = "[([""Barracks""] call GetBuildingType), 1000, ""Barracks""] spawn PrePlace; closeDialog 0;";
 		};
 		class lightVehicleButton: RscButton
 		{
@@ -84,7 +84,7 @@ class commanderDialog
 			y = 0.357 * safezoneH + safezoneY;
 			w = 0.159844 * safezoneW;
 			h = 0.099 * safezoneH;
-			action = "[([""Light Vehicle Factory""] call GetBuildingType), 5000] spawn PrePlace; closeDialog 0;";
+			action = "[([""Light Vehicle Factory""] call GetBuildingType), 5000, ""Light Vehicle Factory""] spawn PrePlace; closeDialog 0;";
 		};
 		class heavyVehicleButton: RscButton
 		{
@@ -94,7 +94,7 @@ class commanderDialog
 			y = 0.467 * safezoneH + safezoneY;
 			w = 0.159844 * safezoneW;
 			h = 0.099 * safezoneH;
-			action = "[([""Heavy Vehicle Factory""] call GetBuildingType), 10000] spawn PrePlace; closeDialog 0;";
+			action = "[([""Heavy Vehicle Factory""] call GetBuildingType), 10000, ""Heavy Vehicle Factory""] spawn PrePlace; closeDialog 0;";
 		};
 		class aircraftFactoryButton: RscButton
 		{
@@ -104,7 +104,7 @@ class commanderDialog
 			y = 0.577 * safezoneH + safezoneY;
 			w = 0.159844 * safezoneW;
 			h = 0.11 * safezoneH;
-			action = "[([""Aircraft Factory""] call GetBuildingType), 10000] spawn PrePlace; closeDialog 0;";
+			action = "[([""Aircraft Factory""] call GetBuildingType), 10000, ""Aircraft Factory""] spawn PrePlace; closeDialog 0;";
 		};
 		////////////////////////////////////////////////////////
 		// GUI EDITOR OUTPUT END
